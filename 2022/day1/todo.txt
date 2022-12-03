@@ -1,0 +1,3 @@
+Est-ce qu'il y a un inspecteur de code pour la file descriptor encore ouvert.
+
+C'est mieux de faire un if ... ou un max_calories = current_calories if current_calories > max_calories) ?
