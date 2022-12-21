@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-def read_file(filename):
+from typing import List
+
+def read_file(filename) -> List[str]:
     with open(filename) as f:
         return [row.strip('\n') for row in f.readlines()]
 
